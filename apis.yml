@@ -1,0 +1,23 @@
+aid: getchord-xyz
+name: getchord-xyz
+description: 'getchord-xyz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/getchord-xyz/apis.yml
+x-type: company
+x-source: harvest:mcp-registry
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-09'
+modified: '2026-11-09'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://getchord.xyz/
