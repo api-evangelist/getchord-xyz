@@ -1,4 +1,4 @@
-# getchord-xyz
+# Chord
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,154 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-getchord-xyz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://getchord.xyz/
+Chord is an AI-powered trading desk offering a non-custodial trading API. Users can ask about any token, stock, perpetual contract, or gold, and receive natural‑language answers based on on‑chain swaps, order books, and news. The platform aims to make trading one tap away in a user's wallet, providing market data and execution via a simple API.
+
+**Areas:** Finance · Trading · AI · Crypto · API
+
+## Chord on APIs.io
+
+Everything profiled for Chord is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getchord-xyz/](https://apis.io/providers/getchord-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (19)
+
+- [Chord Account and health API](https://apis.io/apis/getchord-xyz/getchord-xyz-account-and-health-api/) — Your key, and the service's own health.
+- [Chord Agents and status API](https://apis.io/apis/getchord-xyz/getchord-xyz-agents-and-status-api/) — What an agent starts from: the chain directory (which capability lives on which route, per chain), the hosted MCP server, per-chain health, the public…
+- [Chord Arc data API](https://apis.io/apis/getchord-xyz/getchord-xyz-arc-data-api/) — Arc (chain 5042): chain totals, every token traded, launches, launchers, holders — from Chord's own rollup and index tables.
+- [Chord Ask agent API](https://apis.io/apis/getchord-xyz/getchord-xyz-ask-agent-api/) — The analyst agent over the Arc index, its picks and research notes.
+- [Chord Avalanche, Base, BNB Chain API](https://apis.io/apis/getchord-xyz/getchord-xyz-avalanche-base-bnb-chain-api/) — Avalanche C-Chain (43114), Base (8453), BNB Chain (56), Arbitrum One (42161) and Ethereum (1): chain totals, the 24-hour token board, prints, one token's…
+- [Chord Backtests API](https://apis.io/apis/getchord-xyz/getchord-xyz-backtests-api/) — Bar-close strategy backtests over Chord's stored candles: any Hyperliquid perp, 13 FX pairs and metals. Simulated, nothing is traded.
+- [Chord Bridge API](https://apis.io/apis/getchord-xyz/getchord-xyz-bridge-api/) — Circle CCTP fast transfer to Arc, and LI.FI routes from 60+ chains.
+- [Chord Liquidity API](https://apis.io/apis/getchord-xyz/getchord-xyz-liquidity-api/) — Liquidity: events, pools ranked for providers, positions valued live, LP leaderboard, range planning and backtests, alerts.
+- [Chord Meta aggregator API](https://apis.io/apis/getchord-xyz/getchord-xyz-meta-aggregator-api/) — One quote and one unsigned transaction on any Chord chain, for agents. Chord's own router answers first; a third-party aggregator (KyberSwap, Monorail,…
+- [Chord Points API](https://apis.io/apis/getchord-xyz/getchord-xyz-points-api/) — The Chord points program on Arc.
+- [Chord Portfolio API](https://apis.io/apis/getchord-xyz/getchord-xyz-portfolio-api/) — One wallet's holdings and 24h / 7d / 30d PnL on every chain and Solana by one rule, its swaps across chains, and the older per-chain average-cost PnL, trade…
+- [Chord Quote and swap API](https://apis.io/apis/getchord-xyz/getchord-xyz-quote-and-swap-api/) — Best-route quotes across every venue on the chain, and the unsigned transaction to execute them.
+- [Chord Robinhood Chain data API](https://apis.io/apis/getchord-xyz/getchord-xyz-robinhood-chain-data-api/) — Robinhood Chain (chain 4663): chain totals, tokens and tokenized stocks from the rollup tables.
+- [Chord Solana data API](https://apis.io/apis/getchord-xyz/getchord-xyz-solana-data-api/) — Solana, read-only: chain totals, the 24-hour token board, search, one token's stats, prints, candles and traders, the day's trader board, a wallet's PnL,…
+- [Chord Solana swaps API](https://apis.io/apis/getchord-xyz/getchord-xyz-solana-swaps-api/) — Solana swaps, open to everyone: every quote builds Chord's own route (Raydium, Orca, Meteora, pump.fun, PumpSwap) and Jupiter's for the wallet, simulates…
+- [Chord Streaming API](https://apis.io/apis/getchord-xyz/getchord-xyz-streaming-api/) — Server-sent events and the public WebSocket.
+- [Chord Token safety API](https://apis.io/apis/getchord-xyz/getchord-xyz-token-safety-api/) — Chord's safety report for one token on its eight EVM chains or Solana: its own contract scan and buy-then-sell simulation, GoPlus (Powered by Go+ Security),…
+- [Chord Tokens and charts API](https://apis.io/apis/getchord-xyz/getchord-xyz-tokens-and-charts-api/) — Curated lists, candles, trade tapes, windowed stats and logos. Address-keyed routes serve both chains.
+- [Chord Top wallets API](https://apis.io/apis/getchord-xyz/getchord-xyz-top-wallets-api/) — Wallets ranked from the tape by a skill-adjusted score, with routers and bots removed.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Chord Agentic Access](https://apis.io/agentic-access/getchord-xyz/getchord-xyz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [LpLeaderRow](https://apis.io/schemas/getchord-xyz/getchord-xyz-lp-leader-row/)
+- [MetaQuote](https://apis.io/schemas/getchord-xyz/getchord-xyz-meta-quote/)
+- [PoolListRow](https://apis.io/schemas/getchord-xyz/getchord-xyz-pool-list-row/)
+- [SolTokenRow](https://apis.io/schemas/getchord-xyz/getchord-xyz-sol-token-row/)
+- [SolTradeQuote](https://apis.io/schemas/getchord-xyz/getchord-xyz-sol-trade-quote/)
+- [TokenRiskReport](https://apis.io/schemas/getchord-xyz/getchord-xyz-token-risk-report/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Getchord Xyz Context](https://apis.io/jsonld/getchord-xyz/getchord-xyz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Chord API Rules](https://apis.io/rules/getchord-xyz/getchord-xyz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chord Authentication](https://apis.io/security/getchord-xyz/getchord-xyz-authentication/)
+- [Chord Domain Security](https://apis.io/security/getchord-xyz/getchord-xyz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Chord Plans Pricing](https://apis.io/plans/getchord-xyz/getchord-xyz-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Chord Rate Limits](https://apis.io/rate-limits/getchord-xyz/getchord-xyz-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://getchord.xyz/)
+- [Documentation](https://getchord.xyz/developer)
+- [Getting started](https://getchord.xyz/docs/get-started/)
+- [API reference](https://getchord.xyz/developer)
+- [Pricing](https://getchord.xyz/pricing)
+- [Changelog](https://getchord.xyz/docs/resources/changelog/)
+- [Terms of service](https://getchord.xyz/terms)
+- [Privacy policy](https://getchord.xyz/privacy)
+- [Status](https://getchord.xyz/status)
+
+## API Evangelist rating
+
+**Kin Score 61.8** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getchord-xyz/](https://apis.io/providers/getchord-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chord: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/getchord-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
